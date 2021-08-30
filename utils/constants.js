@@ -1,0 +1,40 @@
+module.exports={
+    rooms:[
+        {
+            name:"C",
+            capacity:3
+            
+        },
+        {
+            name:"D",
+            capacity:7
+        },
+        {
+            name:"G",
+            capacity:20
+        }
+    ],
+    slots:[
+        {
+            startTime:'09:00',
+            endTime:'09:15'
+        },
+        {
+            startTime:'13:15',
+            endTime:'13:45'
+        },
+        {
+            startTime:'18:45',
+            endTime:'19:00'
+        }],
+    NVR:'NO_VACANT_ROOM',
+    II:'INCORRECT_INPUT',
+    C:'C-Cave',
+    D:'D-Tower',
+    G:'G-Mansion',
+    V:'VACANCY',
+    B:'BOOK',
+    CB:'CANCEL_BOOKING',
+    CS:'CANCELLATION SUCCESSFUL',
+    NBF:'NO_BOOKING_FOUND'
+}
